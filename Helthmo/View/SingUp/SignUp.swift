@@ -33,7 +33,7 @@ struct SignUp: View {
                         .cornerRadius(12)
                 }
                 
-                NavigationLink (destination: ContentView()) {
+                NavigationLink (destination: Login()) {
                         Text("login")
                             .frame(maxWidth: .infinity)
                             .padding()

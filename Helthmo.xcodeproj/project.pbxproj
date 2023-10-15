@@ -16,6 +16,9 @@
 		3D384C7C2ADC307400FD3E06 /* HelthmoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D384C7B2ADC307400FD3E06 /* HelthmoUITestsLaunchTests.swift */; };
 		3D384C8D2ADC34E300FD3E06 /* SignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D384C8C2ADC34E300FD3E06 /* SignUp.swift */; };
 		3D384C8F2ADC3D4200FD3E06 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D384C8E2ADC3D4200FD3E06 /* Login.swift */; };
+		3D384C912ADC450700FD3E06 /* SplashScreen_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D384C902ADC450700FD3E06 /* SplashScreen_1.swift */; };
+		3D384C932ADC483F00FD3E06 /* SplashScreen_2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D384C922ADC483F00FD3E06 /* SplashScreen_2.swift */; };
+		3D384C952ADC498800FD3E06 /* SplashScreen_3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D384C942ADC498800FD3E06 /* SplashScreen_3.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		3D384C7B2ADC307400FD3E06 /* HelthmoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelthmoUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		3D384C8C2ADC34E300FD3E06 /* SignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp.swift; sourceTree = "<group>"; };
 		3D384C8E2ADC3D4200FD3E06 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		3D384C902ADC450700FD3E06 /* SplashScreen_1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen_1.swift; sourceTree = "<group>"; };
+		3D384C922ADC483F00FD3E06 /* SplashScreen_2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen_2.swift; sourceTree = "<group>"; };
+		3D384C942ADC498800FD3E06 /* SplashScreen_3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen_3.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -163,6 +169,9 @@
 		3D384C8B2ADC33CD00FD3E06 /* SplashScreen */ = {
 			isa = PBXGroup;
 			children = (
+				3D384C902ADC450700FD3E06 /* SplashScreen_1.swift */,
+				3D384C922ADC483F00FD3E06 /* SplashScreen_2.swift */,
+				3D384C942ADC498800FD3E06 /* SplashScreen_3.swift */,
 			);
 			path = SplashScreen;
 			sourceTree = "<group>";
@@ -298,7 +307,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D384C8D2ADC34E300FD3E06 /* SignUp.swift in Sources */,
+				3D384C912ADC450700FD3E06 /* SplashScreen_1.swift in Sources */,
+				3D384C952ADC498800FD3E06 /* SplashScreen_3.swift in Sources */,
 				3D384C602ADC307100FD3E06 /* ContentView.swift in Sources */,
+				3D384C932ADC483F00FD3E06 /* SplashScreen_2.swift in Sources */,
 				3D384C5E2ADC307100FD3E06 /* HelthmoApp.swift in Sources */,
 				3D384C8F2ADC3D4200FD3E06 /* Login.swift in Sources */,
 			);
