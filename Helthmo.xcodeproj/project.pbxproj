@@ -14,7 +14,8 @@
 		3D384C702ADC307400FD3E06 /* HelthmoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D384C6F2ADC307400FD3E06 /* HelthmoTests.swift */; };
 		3D384C7A2ADC307400FD3E06 /* HelthmoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D384C792ADC307400FD3E06 /* HelthmoUITests.swift */; };
 		3D384C7C2ADC307400FD3E06 /* HelthmoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D384C7B2ADC307400FD3E06 /* HelthmoUITestsLaunchTests.swift */; };
-		3D384C8D2ADC34E300FD3E06 /* SingUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D384C8C2ADC34E300FD3E06 /* SingUp.swift */; };
+		3D384C8D2ADC34E300FD3E06 /* SignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D384C8C2ADC34E300FD3E06 /* SignUp.swift */; };
+		3D384C8F2ADC3D4200FD3E06 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D384C8E2ADC3D4200FD3E06 /* Login.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,7 +47,8 @@
 		3D384C752ADC307400FD3E06 /* HelthmoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelthmoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D384C792ADC307400FD3E06 /* HelthmoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelthmoUITests.swift; sourceTree = "<group>"; };
 		3D384C7B2ADC307400FD3E06 /* HelthmoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelthmoUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		3D384C8C2ADC34E300FD3E06 /* SingUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingUp.swift; sourceTree = "<group>"; };
+		3D384C8C2ADC34E300FD3E06 /* SignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp.swift; sourceTree = "<group>"; };
+		3D384C8E2ADC3D4200FD3E06 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,7 +147,7 @@
 		3D384C892ADC338D00FD3E06 /* SingUp */ = {
 			isa = PBXGroup;
 			children = (
-				3D384C8C2ADC34E300FD3E06 /* SingUp.swift */,
+				3D384C8C2ADC34E300FD3E06 /* SignUp.swift */,
 			);
 			path = SingUp;
 			sourceTree = "<group>";
@@ -153,6 +155,7 @@
 		3D384C8A2ADC33AC00FD3E06 /* Login */ = {
 			isa = PBXGroup;
 			children = (
+				3D384C8E2ADC3D4200FD3E06 /* Login.swift */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -294,9 +297,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D384C8D2ADC34E300FD3E06 /* SingUp.swift in Sources */,
+				3D384C8D2ADC34E300FD3E06 /* SignUp.swift in Sources */,
 				3D384C602ADC307100FD3E06 /* ContentView.swift in Sources */,
 				3D384C5E2ADC307100FD3E06 /* HelthmoApp.swift in Sources */,
+				3D384C8F2ADC3D4200FD3E06 /* Login.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
